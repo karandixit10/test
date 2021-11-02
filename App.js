@@ -19,6 +19,11 @@ export default function App() {
     // <WebView style={styles.container} source={{ uri: "https://in.tradingview.com/chart/" }} />
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
       <Button title="DEPOSIT"/>
+      <View>
+        <Text>
+          HELLO
+        </Text>
+      </View>
     </View>
   );
 }
